@@ -19,7 +19,7 @@ Vào folder "/home/vagrant/devstack" tạo file local.conf
 Chạy lệnh  "$git checkout stable/icehouse" nếu muốn cài đặt Icehouse hoặc stable/juno nếu muốn dùng Juno.
 Copy nội dung file master_local vào file local.conf
 Chạy "$./stack.sh" 
-
+```
 - Đối với máy ảo slave:
 ```sh
 Chạy câu lênh "$vagrant ssh slave"
