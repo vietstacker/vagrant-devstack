@@ -14,7 +14,7 @@ Vagrant-Devstack
 - Đối với máy ảo master:
 ```sh
 Chạy câu lệnh "$vagrant ssh master".
-Git clone devstack từ tang chủ của devstack.
+Git clone devstack từ trang chủ của devstack.
 Vào folder "/home/vagrant/devstack" tạo file local.conf
 Chạy lệnh  "$git checkout stable/icehouse" nếu muốn cài đặt Icehouse hoặc stable/juno nếu muốn dùng Juno.
 Copy nội dung file master_local vào file local.conf
