@@ -13,12 +13,12 @@ Vagrant-Devstack
 - Sau khi các máy ảo được boot, sẽ có 2 máy ảo bao gồm master (controller+compute) và slave (compute)
 - Đối với máy ảo master:
 
-* 2.1 Chạy câu lệnh "$vagrant ssh master".
-* 2.2 Git clone devstack từ trang chủ của devstack.
-* 2.3 Vào folder "/home/vagrant/devstack" tạo file local.conf
-* 2.4 Chạy lệnh  "$git checkout stable/icehouse".
-* 2.5 Copy nội dung file master_local vào file local.conf
-* 2.6 Chạy "$./stack.sh" 
+..* Chạy câu lệnh "$vagrant ssh master".
+..* Git clone devstack từ trang chủ của devstack.
+..* Vào folder "/home/vagrant/devstack" tạo file local.conf
+..* Chạy lệnh  "$git checkout stable/icehouse".
+..* Copy nội dung file master_local vào file local.conf
+..* Chạy "$./stack.sh" 
 
 - Đối với máy ảo slave:
 
